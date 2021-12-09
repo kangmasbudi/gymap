@@ -1,0 +1,4 @@
+#Wed Dec 01 19:40:20 WIB 2021
+base.0=/home/kraffsolution/AppFlutter/gym/build/app/intermediates/transforms/r8/release/0/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
