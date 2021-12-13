@@ -116,7 +116,7 @@ class _AlleventState extends State<Allevent> {
     super.dispose();
   }
 
-  Color mainColor = HexColor('ff5252');
+  Color mainColor = HexColor('133337');
   _initUI() {
     allTFBorder = OutlineInputBorder(
         borderRadius: BorderRadius.all(

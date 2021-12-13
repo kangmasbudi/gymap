@@ -55,14 +55,7 @@ class _SpashState extends State<Spash> with SingleTickerProviderStateMixin {
                   SizedBox(child: Image.asset('assets/Logos-01.png')),
                 ],
               ),
-              Text(
-                "SELAMAT DATANG DI EL-SALJAVE GROUPE",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontFamily: 'Kali',
-                    fontSize: 20,
-                    color: HexColor('920003')),
-              )
+          
             ],
           ),
         ),

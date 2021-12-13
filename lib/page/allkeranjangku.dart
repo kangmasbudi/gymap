@@ -289,7 +289,7 @@ class _AllkeranjangkuState extends State<Allkeranjangku> {
     super.dispose();
   }
 
-  Color mainColor = HexColor('ff5252');
+  Color mainColor = HexColor('133337');
   _initUI() {
     allTFBorder = OutlineInputBorder(
         borderRadius: BorderRadius.all(
@@ -358,8 +358,9 @@ class _AllkeranjangkuState extends State<Allkeranjangku> {
                           },
                         ),
                 ),
-                Container(
-                  height: MediaQuery.of(context).size.height / 6.7,
+                Expanded(
+                    child: Container(
+                  height: MediaQuery.of(context).size.height / 5.2,
                   decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
@@ -367,7 +368,7 @@ class _AllkeranjangkuState extends State<Allkeranjangku> {
                             offset: Offset(1, 4),
                             blurRadius: 5)
                       ],
-                      color: Colors.redAccent,
+                      color: HexColor('133337'),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(30),
                           topRight: Radius.circular(30))),
@@ -376,7 +377,7 @@ class _AllkeranjangkuState extends State<Allkeranjangku> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SizedBox(
-                        height: 7,
+                        height: 1,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -398,10 +399,13 @@ class _AllkeranjangkuState extends State<Allkeranjangku> {
                           onPressed: () {
                             simpan();
                           },
-                          child: Text("ChecOut"))
+                          child: Text("ChecOut")),
+                      SizedBox(
+                        height: 30,
+                      )
                     ],
                   ),
-                )
+                ))
               ],
             )));
   }

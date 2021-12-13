@@ -58,6 +58,20 @@ class _BottomNavigation2PageState extends State<BottomNavigation2Page> {
   }
 
   setuju() {
+    keluar();
+  }
+
+  keluar() async {
+    SharedPreferences preferences = await SharedPreferences.getInstance();
+    setState(() {
+      preferences.remove('id');
+
+      preferences.commit();
+    });
+    exit(0);
+  }
+
+  logout() {
     kirimwas(
         number: kontakadmin,
         message: "Hallo Admin Best DMR Eco Racing Saya Ingin Bertanya?");
@@ -73,20 +87,7 @@ class _BottomNavigation2PageState extends State<BottomNavigation2Page> {
     ambilnomeradmin();
   }
 
-  Color mainColor = HexColor('920003');
-
-  keluar() async {
-    SharedPreferences preferences = await SharedPreferences.getInstance();
-    setState(() {
-      preferences.remove('id');
-      preferences.remove('name');
-      preferences.remove('email');
-      preferences.remove('hp');
-      preferences.remove('status');
-      preferences.commit();
-    });
-    exit(0);
-  }
+  Color mainColor = HexColor('133337');
 
   @override
   void dispose() {

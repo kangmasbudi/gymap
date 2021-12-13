@@ -117,7 +117,7 @@ class _AllmakananState extends State<Allmakanan> {
     super.dispose();
   }
 
-  Color mainColor = HexColor('920003');
+  Color mainColor = HexColor('133337');
   _initUI() {
     allTFBorder = OutlineInputBorder(
         borderRadius: BorderRadius.all(

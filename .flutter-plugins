@@ -1,0 +1,24 @@
+# This is a generated file; do not edit or check into version control.
+advance_pdf_viewer=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/advance_pdf_viewer-1.2.2/
+fluttertoast=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.8/
+import_js_library=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/import_js_library-1.0.2/
+path_provider=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.28/
+path_provider_linux=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_macos=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+8/
+path_provider_windows=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.5/
+shared_preferences=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.12+4/
+shared_preferences_linux=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+4/
+shared_preferences_macos=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+11/
+shared_preferences_web=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+shared_preferences_windows=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-0.0.2+3/
+sqflite=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/
+url_launcher=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/
+url_launcher_linux=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+url_launcher_macos=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+url_launcher_web=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+3/
+url_launcher_windows=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/
+video_player=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-1.0.1/
+video_player_web=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_web-0.1.4+1/
+wakelock=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.2.1+1/
+wakelock_web=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock_web-0.1.0+3/
+webview_flutter=/home/kraffsolution/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-1.0.7/

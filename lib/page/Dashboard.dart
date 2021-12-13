@@ -111,7 +111,7 @@ class _DashboardState extends State<Dashboard> {
                       height: MediaQuery.of(context).size.height / 3,
                       width: MediaQuery.of(context).size.width / 1.1,
                       decoration: BoxDecoration(
-                        color: HexColor('920003'),
+                        color: HexColor('133337'),
                         borderRadius: BorderRadius.only(
                           bottomRight: Radius.circular(40),
                         ),
@@ -132,6 +132,7 @@ class _DashboardState extends State<Dashboard> {
                                   "Membership Status",
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,
+                                      fontSize: 25,
                                       fontFamily: 'Kalilight'),
                                 ),
                                 Divider(),
@@ -206,7 +207,7 @@ class _DashboardState extends State<Dashboard> {
                                   child: Align(
                                     alignment: Alignment.bottomLeft,
                                     child: Text(
-                                      "Pakages",
+                                      "Packages",
                                       style: TextStyle(
                                           fontFamily: 'Kali',
                                           fontWeight: FontWeight.bold),
@@ -217,9 +218,9 @@ class _DashboardState extends State<Dashboard> {
                                 width: MediaQuery.of(context).size.height / 7,
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
-                                    scale: 10,
+                                    scale: 30,
                                     image: AssetImage(
-                                      'assets/iconpaket.png',
+                                      'assets/Logos-04.png',
                                     ),
                                   ),
                                   color: Colors.white,
@@ -268,9 +269,9 @@ class _DashboardState extends State<Dashboard> {
                                 width: MediaQuery.of(context).size.height / 7,
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
-                                    scale: 20,
+                                    scale: 30,
                                     image: AssetImage(
-                                      'assets/food.png',
+                                      'assets/cafe.png',
                                     ),
                                   ),
                                   color: Colors.white,
@@ -321,9 +322,9 @@ class _DashboardState extends State<Dashboard> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  'assets/event.png',
+                                  'assets/even.png',
                                 ),
-                                scale: 2,
+                                scale: 5,
                               ),
                               color: Colors.white,
                               borderRadius: BorderRadius.only(

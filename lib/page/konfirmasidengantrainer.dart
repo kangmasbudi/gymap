@@ -38,7 +38,7 @@ class Konfirmasitrainer extends StatefulWidget {
 }
 
 class _KonfirmasitrainerState extends State<Konfirmasitrainer> {
-  Color mainColor = HexColor('ff5252');
+  Color mainColor = HexColor('133337');
 
   String idku = "";
   String id = "";

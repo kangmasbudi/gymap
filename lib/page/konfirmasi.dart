@@ -32,7 +32,7 @@ class Konfirmasi extends StatefulWidget {
 }
 
 class _KonfirmasiState extends State<Konfirmasi> {
-  Color mainColor = HexColor('ff5252');
+  Color mainColor = HexColor('133337');
 
   String idku = "";
   String id = "";

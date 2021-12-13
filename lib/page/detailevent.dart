@@ -33,7 +33,7 @@ class Detailevent extends StatefulWidget {
 }
 
 class _DetaileventState extends State<Detailevent> {
-  Color mainColor = HexColor('ff5252');
+  Color mainColor = HexColor('133337');
 
   String kontakadmin = "";
 

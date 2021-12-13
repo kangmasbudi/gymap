@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter_hex_color/flutter_hex_color.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -110,7 +111,7 @@ class _Navpage4State extends State<Navpage4> {
                       height: MediaQuery.of(context).size.height / 3,
                       width: MediaQuery.of(context).size.width / 1.1,
                       decoration: BoxDecoration(
-                        color: Colors.redAccent,
+                        color: HexColor('133337'),
                         borderRadius: BorderRadius.only(
                           bottomRight: Radius.circular(40),
                         ),

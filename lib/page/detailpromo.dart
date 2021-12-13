@@ -14,7 +14,7 @@ class Detailpromo extends StatefulWidget {
 }
 
 class _DetailpromoState extends State<Detailpromo> {
-  Color mainColor = HexColor('920003');
+  Color mainColor = HexColor('133337');
 
   @override
   Widget build(BuildContext context) {

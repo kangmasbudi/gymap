@@ -33,7 +33,7 @@ class Detailproduk extends StatefulWidget {
 }
 
 class _DetailprodukState extends State<Detailproduk> {
-  Color mainColor = HexColor('920003');
+  Color mainColor = HexColor('133337');
 
   String kontakadmin = "";
   ambilnomeradmin() async {
